@@ -1,0 +1,167 @@
+/*DOCTYPE CSS*/
+
+@font-face {
+font-family: DancingScript-VariableFont_wght;
+src: url(DancingScript-VariableFont_wght.ttf)
+}
+
+@font-face {
+font-family: Times;
+src: url(times.ttf)
+}
+
+@font-face {
+font-family: PlantC;
+src: url(plantc.ttf)
+}
+
+head {
+    background-color: #000000;
+}
+
+title {
+    font-family: DancingScript-VariableFont_wght;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    width: 100%;
+    background-color: #131417;
+    max-width: 1200px;
+}
+
+h1 {
+    font-family: DancingScript-VariableFont_wght;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 0;
+    font-style: italic;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-top: 170px;
+    font-size: 19px;
+}
+
+
+a:hover {
+    color: #2B811A;
+}
+
+body {
+    align-text: center;
+    background-color: #131417;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.wkspryr {
+    color: #1B9EC6;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h6 {
+    font-family: DancingScript-VariableFont_wght;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+h3 {
+    font-family: Times;
+    font-size: 22px;
+    color: #693C0F;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4{
+    font-family: Times;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.CIA {
+    color: #273597;
+}
+
+p {
+    font-family: Times;
+    font-size: 18px;
+    color: #777A86;
+}
+
+.rules {
+    color: #D57900;
+    font-size: 16px;
+    text-align: center;
+}
+
+.postps {
+    color: #D57900;
+    font-size: 15px;
+    text-align: center;
+}
+
+h5 {
+    font-family: PlantC;
+    font-size: 17px;
+    color: #277A08;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.note {
+    font-size: 15px;
+    color: #726B6B;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #131417;
+    border-top: 1px solid #726B6B;
+}
+
+.foot {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.ps {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.contact {
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.Scripture {
+   color: #42D50C;
+   font-size: 18px;
+   font-style: italic;
+   margin-left: 50px;
+   margin-right: 50px;
+}
