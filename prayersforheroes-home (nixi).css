@@ -1,0 +1,219 @@
+
+/*DOCTYPE CSS*/
+
+@font-face {
+font-family: DancingScript-VariableFont_wght;
+src: url(DancingScript-VariableFont_wght.ttf)
+}
+
+@font-face {
+font-family: Times;
+src: url(times.ttf)
+}
+
+@font-face {
+font-family: PlantC;
+src: url(plantc.ttf)
+}
+
+head {
+    background-color: #000000;
+}
+
+title {
+    font-family: DancingScript-VariableFont_wght;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    width: 100%;
+    background-color: #131417;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: DancingScript-VariableFont_wght;
+    font-weight: bold;
+    font-size: 145%;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 170px;
+    font-size: 125%;
+}
+
+
+a:hover {
+    color: #2B811A;
+}
+
+body {
+    text-align: center;
+    background-color: #131417;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.dedication {
+    color: #F31212;
+    text-align: center;
+}
+
+.wkspryr {
+    color: #1B9EC6;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h6 {
+    font-family: DancingScript-VariableFont_wght;
+    font-size: 102%;
+    text-align: center;
+}
+
+h3 {
+    font-family: Times;
+    font-size: 107%;
+    color: #693C0F;
+    text-align: center;
+    margin-top: 60px;
+}
+
+p {
+    font-family: Times;
+    font-size: 105%;
+    color: #777A86;
+}
+
+.rules {
+    color: #D57900;
+    font-size: 100%;
+    text-align: center;
+}
+
+.postps {
+    color: #D57900;
+    font-size: 102%;
+    text-align: center;
+}
+
+h5 {
+    font-family: PlantC;
+    font-size: 102%;
+    color: #277A08;
+    text-align: center;
+    margin-top: 80px;
+}
+
+form {
+    width: 350px;
+    margin: auto 0;
+    text-align: center;
+}
+
+input {
+    width: 345px;
+    padding: 6px;
+    background-color: #413C3C;
+    color: #FFFFFF;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background-color: #413C3C;
+}
+
+button {
+    background-color: #136E25;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+.note {
+    font-size: 107%;
+    color: #726B6B;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #131417;
+    border-top: 1px solid #726B6B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.foot {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ps {
+    color: #FFFFFF;
+    font-size: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.contact {
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 100%;
+}
+
+.Scripture {
+   color: #42D50C;
+   font-size: 105%;
+   font-style: italic;
+}
+
+@media screen and (max-width 480px) {
+ header, main, footer {
+    width: 100%;
+}
+
+ .foot {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width 768px) {
+ header, main, footer {
+    width: 100%;
+}
+
+ .foot {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width 960px) {
+ header, main, footer {
+    width: 100%;
+}
+}
